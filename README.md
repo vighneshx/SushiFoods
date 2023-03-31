@@ -3,6 +3,6 @@ Sushi Food Application
 
 # Team Development: 
 
-## Ardjun Debi - Tewarie
-## Vighnesh Lachman Singh
-## Silvester Hensen
+1. Ardjun Debi - Tewarie | Authenticatiecode Inloggen Software
+2. Vighnesh Lachman Singh | Frontend-softwarestack
+3. Silvester Hensen | PHP & SQL
