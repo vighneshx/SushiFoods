@@ -11,23 +11,23 @@
 	<div class="background"></div>
 	<div class="container">
 		<h1>Registreren bij Sushi Foods</h1>
-		<form>
+		<form method="post" action="registratie.php">
 			<label for="username">Gebruikersnaam:</label>
 			<input type="text" id="username" name="username" required>
-
+		
 			<label for="email">E-mailadres:</label>
 			<input type="email" id="email" name="email" required>
-
+		
 			<label for="phone">Telefoonnummer:</label>
 			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" required placeholder="123-4567890">
-
+		
 			<label for="password">Wachtwoord:</label>
 			<input type="password" id="password" name="password" required>
-
+		
 			<label for="confirm-password">Bevestig wachtwoord:</label>
 			<input type="password" id="confirm-password" name="confirm-password" required>
-
-			<button type="submit"><a href="./login.html">Registreren</a></button>
+		
+			<button type="submit">Registreren</button>
 		</form>
 		<div class="links">
 			<a href="login.html">Inloggen</a>
